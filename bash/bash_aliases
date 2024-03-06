@@ -1,0 +1,18 @@
+#:LOCATION ~/.bash_aliases
+
+alias ls="eza --icons --group-directories-first"
+alias ll="eza -lgh --icons --group-directories-first"
+alias la="eza -algh --icons --group-directories-first"
+alias ld="eza -D --icons"
+alias lda="eza -alghD --icons"
+alias lg="eza -lgh --icons --git --git-repos-no-status"
+alias lga="eza -algh --icons --git --git-repos"
+
+alias cat="batcat"
+alias md="mkdir -pv"
+alias mkdir="mkdir -pv"
+alias nala="sudo nala"
+alias reboot="sudo reboot"
+alias shutdown="sudo shutdown now"
+alias speed="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
+alias wtr="curl wttr.in"

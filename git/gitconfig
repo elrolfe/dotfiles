@@ -1,0 +1,11 @@
+#:LOCATION ~/.config/git/config
+
+[include]
+    path = ~/.config/git/local.config
+
+[core]
+    autocrlf = input
+    editor = codium --wait
+
+[init]
+    defaultBranch = main
